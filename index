@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sélecteurs CSS</title>
+</head>
+<body>
+<form>
+<table border=1>
+<tr><td>Salle 1</td>
+<td>Salle 2</td></tr>
+<tr><td>Lundi</td><td>X</td></tr>
+</table>
+</form>
+<script src="jquery.js"></script>
+<script>
+$(function() {
+$('td').css('text-align','center');
+// Le code jQuery sera tapé ici
+});
+</script>
+</body>
+</html>
