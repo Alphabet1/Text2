@@ -1,2 +1,2 @@
 # Text2
-table-selecteur
+jequery
